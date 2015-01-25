@@ -1,5 +1,5 @@
-## These functions create a special "matrix" object that can mutate a matrix 
-## and cache its inverse.
+## These functions create a special "matrix" object that can set a matrix, 
+## get the matrix, and cache its inverse.
 
 ## This function creates a special "matrix" object that can cache its inverse.
 
