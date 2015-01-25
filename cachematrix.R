@@ -26,6 +26,7 @@ cacheSolve <- function(x, ...) {
   matrix_inverse <- x$get_inverse()
   if(!is.null(matrix_inverse)) {
     message('Getting cached inverse...')
+    return(matrix_inverse)
   }
   matrix <- x$get()
   inverse <- tryCatch({
